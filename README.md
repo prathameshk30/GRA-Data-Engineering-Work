@@ -9,13 +9,12 @@
 # Introduction
 **Price Crawler: Tracking Price Inflation**
 
-This is a project completed in 3 weeks during the Insight Data Engineering Program (New York, 20B Session). The goal of this project is to calculate inflation rates from first principles.
-That means calculating inflation rate using prices of goods and services sold online.
+This is a project was completed in 28 weeks (Feb 2022- Sept 2022) during my tenure as a Graduate Research Assitant for th marketing analytics department. The goal of this project is to calculate inflation rates from first principles. That means calculating inflation rate using prices of goods and services sold online.
 
 In this project, I built a pipleine to use petabytes of web page data contained in the [Common Crawl](https://commoncrawl.org/), an archive of web page content 
 to calculate inflation rates. The results can be used to enhance investment strategies or by businesses in deciding the cost of products. A sample batch job has 
 been executed using online laptop prices ($500-$800) and the inflation rate in 2019 is measured to be 4.8% which is more than double the annual inflation rate of 
-2.3% reported by Bureau of labor statistics for 2019. A recording of the WebUI is also available [here](https://www.youtube.com/watch?v=mNcodsH5254&feature=youtu.be). 
+2.3% reported by Bureau of labor statistics for 2021. 
 
 # Pipeline
 I built a data pipeline that utilizes petabytes of publicly available web page data to **Calculate Inflation rates from first principles (Prices of Products)**
