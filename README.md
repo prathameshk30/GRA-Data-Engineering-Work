@@ -17,6 +17,10 @@ been executed using online laptop prices ($500-$800) and the inflation rate in 2
 2.3% reported by Bureau of labor statistics for 2021. 
 
 # Pipeline
+
+Please refer modular pipeline Code for basic understanding of AWS S3, AWS Redshift, AWS GLUE:-
+https://github.com/prathameshk30/AWS-Data-Engineering-pipeline
+
 I built a data pipeline that utilizes petabytes of publicly available web page data to **Calculate Inflation rates from first principles (Prices of Products)**
 
 ![pipeline](static/crawler_pipeline.png)
