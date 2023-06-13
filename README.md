@@ -9,7 +9,7 @@
 # Introduction
 **Price Crawler: Tracking Price Inflation**
 
-This is a project was completed in 28 weeks (Feb 2022- Sept 2022) during my tenure as a Graduate Research Assitant for th marketing analytics department. The goal of this project is to calculate inflation rates from first principles. That means calculating inflation rate using prices of goods and services sold online.
+This is a project was completed in 32 weeks (Feb 2022- Oct 2022) during my tenure as a Graduate Research Assitant for th marketing analytics department. The goal of this project is to calculate inflation rates from first principles. That means calculating inflation rate using prices of goods and services sold online.
 
 In this project, I built a pipleine to use petabytes of web page data contained in the [Common Crawl](https://commoncrawl.org/), an archive of web page content 
 to calculate inflation rates. The results can be used to enhance investment strategies or by businesses in deciding the cost of products. A sample batch job has 
@@ -32,7 +32,7 @@ I built a data pipeline that utilizes petabytes of publicly available web page d
 
 1)  S3:  Set up and S3 bucket.  In this case:  s3://athena-east-2-usama/
 2)  Athena:  Open Athena on AWS.  Follow the instructions to set up "Running SQL Queries with Athena" here:  https://commoncrawl.org/2018/03/index-to-warc-files-and-urls-in-columnar-format/
-3)  Run Athena with the example in https://github.com/uhussain/WebCrawlerForOnlineInflation/athena/athena_instructions.txt
+3)  Run Athena with the example in [https://github.com/prathameshk30/GRA-Data-Engineering-Work/blob/main/athena/athena_instructions.txt]
 4)  Start EMR in Amazon with Spark and Hadoop.  SSH in.
 5)  Add the following to ~/.bashrc and source ~/.bashrc:
 export SPARK_HOME=/usr/lib/spark
