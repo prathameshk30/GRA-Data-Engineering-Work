@@ -13,7 +13,7 @@ This is a project was completed in 32 weeks (Feb 2022- Oct 2022) during my tenur
 
 In this project, I built a pipleine to use petabytes of web page data contained in the [Common Crawl](https://commoncrawl.org/), an archive of web page content 
 to calculate inflation rates. The results can be used to enhance investment strategies or by businesses in deciding the cost of products. A sample batch job has 
-been executed using online laptop prices ($500-$800) and the inflation rate in 2019 is measured to be 4.8% which is more than double the annual inflation rate of 
+been executed using online laptop prices ($500-$800) and the inflation rate in 2021 is measured to be 4.8% which is more than double the annual inflation rate of 
 2.3% reported by Bureau of labor statistics for 2021. 
 
 # Pipeline
