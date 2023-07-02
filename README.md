@@ -44,7 +44,7 @@ B) I built a data pipeline that utilizes petabytes of publicly available web pag
 export SPARK_HOME=/usr/lib/spark
 export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.7-src.zip:$PYTHONPATH  
 export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$PYTHONPATH
-6)  Install the following on EMR (both master and workers) with "pip install --user":  warcio, boto3, bs4, nltk 
+6)  Install the following on EMR (both master and workers) with "pip install --user":  warcio, boto3, bs4, nltk (using bootstrapping while create EMR config , save a .ssh file)
 7)  Execute main.py in master node.
 
 **Languages** 
